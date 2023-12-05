@@ -23,7 +23,7 @@
         state: absent
     - name: create App Directory
       ansible.builtin.file:
-        path: /path
+        path: /app
         state: directory
     - name: Download and Extract App Content
       ansible.builtin.unarchive:
